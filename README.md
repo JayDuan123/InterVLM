@@ -52,9 +52,32 @@ pip install -r requirements.txt
 
 Use the trained SAE to decompose any MemeCLIP fused embedding into sparse, interpretable features.
 
-### 🔹 Download Pretrained SAE Weights
+### 🔹 Request Pretrained SAE Weights
 
-Pretrained SAE checkpoints are available in the [Releases](https://github.com/JayDuan123/InterVLM/releases) page, or contact [yduan54@wisc.edu](mailto:yduan54@wisc.edu) for access.
+Pretrained SAE checkpoints (TopK, k=64, 4,096 latents, trained on the merged 20,827-meme corpus) are currently released on a **request basis** to approved academic users. To request access, please email [yduan54@wisc.edu](mailto:yduan54@wisc.edu) with the following information:
+
+```
+Subject: [InterVLM] Pretrained Weights Request — <Your Name>, <Institution>
+
+Name:
+Affiliation / Lab:
+Position (e.g., PhD student / Postdoc / Faculty / Research engineer):
+Institutional email:
+Intended use (1–3 sentences):
+    - Research question / application
+    - Will the weights be redistributed? (yes / no)
+    - Will derivative models / features be released? (yes / no)
+
+I agree to:
+    [ ] Use the weights for non-commercial academic research only
+    [ ] Not redistribute the weights to third parties
+    [ ] Cite the InterVLM paper in any resulting publications
+    [ ] Comply with the licensing terms of PrideMM, HMC, and Memotion
+```
+
+Requests are typically processed within **3–5 business days**. Once approved, you will receive a time-limited download link and a `checksum.txt` for verifying file integrity.
+
+> **Note.** Because the underlying training data (PrideMM, HMC, Memotion) contains sensitive and potentially harmful content (hate speech, slurs, targeted imagery), access is restricted to verified academic users and the weights must not be used to generate or amplify harmful content.
 
 ### 🔹 Load the Pretrained SAE
 
