@@ -54,7 +54,7 @@ Use the trained SAE to decompose any MemeCLIP fused embedding into sparse, inter
 
 ### 🔹 Request Pretrained SAE Weights
 
-Pretrained SAE checkpoints (TopK, k=64, 4,096 latents, trained on the merged 20,827-meme corpus) are currently released on a **request basis** to approved academic users. To request access, please email [yduan54@wisc.edu](mailto:lli643@wisc.edu) with the following information:
+Pretrained SAE checkpoints (TopK, k=64, 4,096 latents, trained on the merged 20,827-meme corpus) are currently released on a **request basis** to approved academic users. To request access, please email [lli643@wisc.edu](mailto:lli643@wisc.edu) with the following information:
 
 ```
 Subject: [InterVLM] Pretrained Weights Request — <Your Name>, <Institution>
